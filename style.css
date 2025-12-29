@@ -211,10 +211,6 @@ blockquote {
     flex-direction: column;
 }
 
-.solution__author-name {
-  font-weight: 700;
-}
-
 .solution__author-photo {
   width: 100%;
   max-width: 100px;
@@ -222,8 +218,13 @@ blockquote {
   border-radius: 50%;
 }
 
+.solution__author-name {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
 .solution__article-title {
-    padding: 8px 0;
+    padding: 0 0 8px 0;
     font-family: "EB Garamond", serif;
     font-weight: 500;
     font-size: 22px;
