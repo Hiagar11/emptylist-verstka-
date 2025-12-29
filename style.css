@@ -1,12 +1,19 @@
 .body {
-  box-sizing: border-box;
   margin: 0;
   color: #f5f5f5;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   background-color: #1e1e1e;
 }
-h1, h2, h3, h4, h5, h6, ul, ol, blockquote{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+blockquote {
   margin: 0;
   padding: 0;
 }
@@ -30,7 +37,6 @@ h1, h2, h3, h4, h5, h6, ul, ol, blockquote{
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 35px;
   padding: 24px 20px;
 }
 .logo__wrapper {
@@ -43,31 +49,57 @@ h1, h2, h3, h4, h5, h6, ul, ol, blockquote{
 }
 
 .nav {
-    font-size: 16px;
-    line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .nav__list {
   display: flex;
   flex-direction: column;
   gap: 13px;
-    margin: 0;
+  margin: 0;
   list-style-type: none;
 }
 .nav__item {
 }
 .nav__link {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .nav__link--active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .cover {
-  padding: 0 10px 35px 10px;
+  min-height: 258px;
+  padding: 7px 24px 35px 20px;
+  background-image: url(images/cover.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 94% auto;
+}
+.cover__title {
+  color: #ffffff;
+  width: 100%;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.text {
+  display: block;
+}
+
+.text__center {
+  text-align: center;
+}
+
+.text__right {
+  text-align: right;
 }
 .intro {
   padding: 0 20px 35px 20px;
