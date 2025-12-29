@@ -21,3 +21,33 @@
     color: #131313;
     background-color: #FEE42A;
 }
+
+.header {
+    margin-bottom: 35px;
+    padding: 24px 20px;
+}
+.logo__wrapper {}
+
+.logo {}
+
+.nav {}
+
+.nav__list {}
+.nav__item {}
+.nav__link {}
+
+.cover {
+    padding: 0 10px 35px 10px;
+}
+.intro {
+    padding: 0 20px 35px 20px;
+}
+.reasons {
+    padding: 40px 20px;
+}
+.solutions {
+    padding: 35px 20px;
+}
+.footer {
+    padding: 20px;
+}
